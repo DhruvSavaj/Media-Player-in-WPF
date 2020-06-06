@@ -28,6 +28,8 @@
                         <Button x:Name="btnPausePlay" Content = "Pause" Margin = "0,0,10,0" Padding = "5" Click = "mediaPause" Width="50" />
                         <Button x:Name = "muteButt" Content = "Mute" Padding = "5" Click = "mediaMute" Width="50" />
                         <Button x:Name = "Skip" Margin = "10,0,0,0" Content = "Skip" Padding = "5" Click = "mediaSkip" Width="50" />
+                        <Button x:Name="btnVolume" Content="_Volume +" Padding="5" Margin="10,0,0,0" Click="btnVolume_Click" />
+                        <Button x:Name="btnVolumeDown" Content="_Volume -" Padding="5" Margin="10,0,0,0" Click="btnVolumeDown_Click"/>
                     </StackPanel>
                 </StackPanel>
             </StackPanel>

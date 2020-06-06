@@ -65,8 +65,18 @@ namespace WPFMediaPlayer
         {
             address = new Uri(txtPath.Text);
             myMedia.Source = address;
-            myMedia.Volume = 100;
+            myMedia.Volume = 70;
             myMedia.Play();
+        }
+
+        private void btnVolume_Click(object sender, RoutedEventArgs e)
+        {
+            myMedia.Volume += 10;
+        }
+
+        private void btnVolumeDown_Click(object sender, RoutedEventArgs e)
+        {
+            myMedia.Volume -= 10;
         }
     }
 }
